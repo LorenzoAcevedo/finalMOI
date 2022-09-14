@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/poppins/Poppins-Black.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+.main-h1{
+    font-size: 200%;
+    font-family: 'Prompt', sans-serif;
+    color:rgb(11, 103, 240); 
+    text-align: center;
+}
+.home{
+    margin-bottom: 6%;
+}
+.new{
+    margin-bottom: 2%;
+}
+.sale{
+    margin-bottom: 2%;
+}
+.retro{
+    margin-bottom: 2%;
+}
+.contact{
+    margin-bottom: 22%;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+    gap: 2%;
+}
+.footer a:hover{
+    color:rgb(255, 255, 255);
+}
