@@ -3,4 +3,8 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
+    &::selection{
+        background-color: black;
+        color: rgb(11, 103, 240); 
+    }
 }
